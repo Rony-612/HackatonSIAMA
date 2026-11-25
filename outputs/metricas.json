@@ -1,0 +1,1699 @@
+{
+ "proyecto": {
+  "clave": "geotrust",
+  "nombre": "GeoTrust SIAMA",
+  "acento": "#1d4ed8",
+  "lema": "Cada dato estimado con su pasaporte",
+  "modelo": "HistGradientBoosting + cuantiles 5/95 + enrutador por longitud de hueco",
+  "intervalos": "Conformal CQR de Mondrian (tipo de hueco x temporada x r\u00e9gimen h\u00famedo/seco)",
+  "distintivo": [
+   "trazabilidad_vecinos",
+   "homogeneidad",
+   "asistente",
+   "recomendacion_metodo"
+  ]
+ },
+ "variables": {
+  "precipitacion": {
+   "modelo": {
+    "n": 1370,
+    "total": 1814,
+    "fraccion_estimada": 0.7552370452039692,
+    "mae": 1.8620280566677783,
+    "rmse": 5.391228147411824,
+    "sesgo": -0.028863560861211217,
+    "kge": 0.5796018334388717,
+    "cobertura": 0.9605839416058394,
+    "ancho_intervalo": 7.33198389467694,
+    "pod": 0.8055555555555556,
+    "far": 0.3773006134969325
+   },
+   "linea_base_idw": {
+    "n": 1335,
+    "total": 1814,
+    "fraccion_estimada": 0.7359426681367145,
+    "mae": 1.7774382022471908,
+    "rmse": 5.521207421005644,
+    "sesgo": -0.0740674157303371,
+    "kge": 0.6167697842309234,
+    "pod": 0.731404958677686,
+    "far": 0.2594142259414226
+   },
+   "linea_base_vecinos": {
+    "n": 1335,
+    "total": 1814,
+    "fraccion_estimada": 0.7359426681367145,
+    "mae": 1.8345410779966014,
+    "rmse": 5.934491890333175,
+    "sesgo": 0.00282061404514922,
+    "kge": 0.5893740710467071,
+    "pod": 0.731404958677686,
+    "far": 0.2594142259414226
+   },
+   "comparacion_comun": {
+    "n": 1335,
+    "modelo": {
+     "n": 1335,
+     "total": 1335,
+     "fraccion_estimada": 1.0,
+     "mae": 1.8160241516948588,
+     "rmse": 5.328035447328764,
+     "sesgo": 0.018836972365451222,
+     "kge": 0.5901183789655369,
+     "pod": 0.8140495867768595,
+     "far": 0.3805031446540881
+    },
+    "idw": {
+     "n": 1335,
+     "total": 1335,
+     "fraccion_estimada": 1.0,
+     "mae": 1.7774382022471908,
+     "rmse": 5.521207421005644,
+     "sesgo": -0.0740674157303371,
+     "kge": 0.6167697842309234,
+     "pod": 0.731404958677686,
+     "far": 0.2594142259414226
+    },
+    "vecinos": {
+     "n": 1335,
+     "total": 1335,
+     "fraccion_estimada": 1.0,
+     "mae": 1.8345410779966014,
+     "rmse": 5.934491890333175,
+     "sesgo": 0.00282061404514922,
+     "kge": 0.5893740710467071,
+     "pod": 0.731404958677686,
+     "far": 0.2594142259414226
+    }
+   },
+   "por_tipo_hueco": {
+    "corto": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 3.1487045437697976,
+     "rmse": 6.93626430581883,
+     "sesgo": -0.3667619480643054,
+     "kge": 0.5327214578386418,
+     "cobertura": 0.8939393939393939,
+     "ancho_intervalo": 7.0030856484233075,
+     "pod": 0.8055555555555556,
+     "far": 0.2926829268292683
+    },
+    "largo": {
+     "n": 1123,
+     "total": 1550,
+     "fraccion_estimada": 0.724516129032258,
+     "mae": 1.7504456158865076,
+     "rmse": 5.108898417973648,
+     "sesgo": -0.06599147602908458,
+     "kge": 0.5670549817925274,
+     "cobertura": 0.9670525378450578,
+     "ancho_intervalo": 7.605415766660299,
+     "pod": 0.826530612244898,
+     "far": 0.39776951672862454
+    },
+    "medio": {
+     "n": 115,
+     "total": 132,
+     "fraccion_estimada": 0.8712121212121212,
+     "mae": 1.4747740105799556,
+     "rmse": 6.0126805798839715,
+     "sesgo": 0.7215471856112258,
+     "kge": -0.7639500846709917,
+     "cobertura": 0.9739130434782609,
+     "ancho_intervalo": 5.039380210052319,
+     "pod": 0.6,
+     "far": 0.25
+    }
+   },
+   "por_rango_hueco": {
+    "1-3": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 3.1487045437697976,
+     "rmse": 6.93626430581883,
+     "sesgo": -0.3667619480643054,
+     "kge": 0.5327214578386418,
+     "cobertura": 0.8939393939393939,
+     "ancho_intervalo": 7.0030856484233075,
+     "pod": 0.8055555555555556,
+     "far": 0.2926829268292683
+    },
+    "31-60": {
+     "n": 169,
+     "total": 280,
+     "fraccion_estimada": 0.6035714285714285,
+     "mae": 2.058261203331157,
+     "rmse": 5.131998634681584,
+     "sesgo": -0.37116249243668237,
+     "kge": 0.6223443639468298,
+     "cobertura": 0.9644970414201184,
+     "ancho_intervalo": 8.244723933475802,
+     "pod": 0.8823529411764706,
+     "far": 0.4
+    },
+    "4-30": {
+     "n": 115,
+     "total": 132,
+     "fraccion_estimada": 0.8712121212121212,
+     "mae": 1.4747740105799556,
+     "rmse": 6.0126805798839715,
+     "sesgo": 0.7215471856112258,
+     "kge": -0.7639500846709917,
+     "cobertura": 0.9739130434782609,
+     "ancho_intervalo": 5.039380210052319,
+     "pod": 0.6,
+     "far": 0.25
+    },
+    "61+": {
+     "n": 954,
+     "total": 1270,
+     "fraccion_estimada": 0.7511811023622047,
+     "mae": 1.6959164394943211,
+     "rmse": 5.104795342059383,
+     "sesgo": -0.01193078234681617,
+     "kge": 0.5339848084664943,
+     "cobertura": 0.9675052410901468,
+     "ancho_intervalo": 7.492163062056715,
+     "pod": 0.8148148148148148,
+     "far": 0.3972602739726027
+    }
+   },
+   "por_temporada": {
+    "estiaje": {
+     "n": 764,
+     "total": 929,
+     "fraccion_estimada": 0.8223896663078579,
+     "mae": 0.3258798512613416,
+     "rmse": 2.0876427007355836,
+     "sesgo": 0.04498722275156473,
+     "kge": 0.3234770315727643,
+     "cobertura": 0.9803664921465969,
+     "ancho_intervalo": 1.0772774723772576,
+     "pod": 0.75,
+     "far": 0.48936170212765956
+    },
+    "lluvias": {
+     "n": 606,
+     "total": 885,
+     "fraccion_estimada": 0.6847457627118644,
+     "mae": 3.7986901506125266,
+     "rmse": 7.759781703192342,
+     "sesgo": -0.12196916924431483,
+     "kge": 0.5313677301404209,
+     "cobertura": 0.9356435643564357,
+     "ancho_intervalo": 15.21745535777423,
+     "pod": 0.8136363636363636,
+     "far": 0.35842293906810035
+    }
+   },
+   "por_estacion": {
+    "11096": {
+     "n": 652,
+     "total": 907,
+     "fraccion_estimada": 0.7188533627342889,
+     "mae": 1.905418900620676,
+     "rmse": 5.422626406377146,
+     "sesgo": 0.050171879378396685,
+     "kge": 0.6241455488614567,
+     "cobertura": 0.9647239263803681,
+     "ancho_intervalo": 7.435054347038523,
+     "pod": 0.8333333333333334,
+     "far": 0.4067796610169492
+    },
+    "11136": {
+     "n": 718,
+     "total": 907,
+     "fraccion_estimada": 0.7916207276736494,
+     "mae": 1.8226257861144501,
+     "rmse": 5.36255681375439,
+     "sesgo": -0.10063390492280493,
+     "kge": 0.525329197117181,
+     "cobertura": 0.9568245125348189,
+     "ancho_intervalo": 7.238387885011548,
+     "pod": 0.7777777777777778,
+     "far": 0.3422818791946309
+    }
+   },
+   "metodos_por_hueco": {
+    "corto": "ens",
+    "medio": "vecinos",
+    "largo": "ens"
+   },
+   "seleccion_mae_por_metodo": {
+    "corto": {
+     "ml": 2.6149,
+     "lineal": 2.5653,
+     "ens": 2.0824,
+     "n": 264
+    },
+    "medio": {
+     "ml": 2.5403,
+     "vecinos": 2.1624,
+     "lineal": 6.064,
+     "ens": 2.2322,
+     "idw": 2.2066,
+     "n": 229
+    },
+    "largo": {
+     "ml": 2.7448,
+     "vecinos": 2.6632,
+     "ens": 2.5893,
+     "idw": 2.6234,
+     "n": 2391
+    }
+   },
+   "calibracion": {
+    "31-60|lluvias|humedo": {
+     "q": 0.1615,
+     "n": 126
+    },
+    "31-60|*|humedo": {
+     "q": 0.0518,
+     "n": 131
+    },
+    "61+|lluvias|humedo": {
+     "q": 0.1348,
+     "n": 243
+    },
+    "61+|*|humedo": {
+     "q": 0.1909,
+     "n": 267
+    },
+    "*|*|humedo": {
+     "q": 0.1553,
+     "n": 453
+    },
+    "1-3|estiaje|seco": {
+     "q": 0.0,
+     "n": 74
+    },
+    "1-3|*|seco": {
+     "q": 0.0,
+     "n": 102
+    },
+    "31-60|estiaje|seco": {
+     "q": 0.0,
+     "n": 53
+    },
+    "31-60|lluvias|seco": {
+     "q": 0.2085,
+     "n": 81
+    },
+    "31-60|*|seco": {
+     "q": 0.0,
+     "n": 134
+    },
+    "4-30|estiaje|seco": {
+     "q": 0.0,
+     "n": 57
+    },
+    "4-30|*|seco": {
+     "q": 0.0,
+     "n": 88
+    },
+    "61+|estiaje|seco": {
+     "q": 0.0,
+     "n": 645
+    },
+    "61+|lluvias|seco": {
+     "q": 0.0,
+     "n": 319
+    },
+    "61+|*|seco": {
+     "q": 0.0,
+     "n": 964
+    },
+    "*|*|seco": {
+     "q": 0.0,
+     "n": 1288
+    },
+    "*|*|*": {
+     "q": 0.0,
+     "n": 1741
+    }
+   },
+   "calibracion_produccion": {
+    "1-3|lluvias|humedo": {
+     "q": 0.5368,
+     "n": 59
+    },
+    "1-3|*|humedo": {
+     "q": 0.5368,
+     "n": 64
+    },
+    "31-60|lluvias|humedo": {
+     "q": 0.0829,
+     "n": 170
+    },
+    "31-60|*|humedo": {
+     "q": 0.1615,
+     "n": 178
+    },
+    "4-30|*|humedo": {
+     "q": 0.1533,
+     "n": 43
+    },
+    "61+|lluvias|humedo": {
+     "q": 0.0428,
+     "n": 426
+    },
+    "61+|*|humedo": {
+     "q": 0.0974,
+     "n": 461
+    },
+    "*|*|humedo": {
+     "q": 0.1553,
+     "n": 746
+    },
+    "1-3|estiaje|seco": {
+     "q": 0.0,
+     "n": 139
+    },
+    "1-3|lluvias|seco": {
+     "q": 0.3316,
+     "n": 61
+    },
+    "1-3|*|seco": {
+     "q": 0.0,
+     "n": 200
+    },
+    "31-60|estiaje|seco": {
+     "q": 0.0,
+     "n": 149
+    },
+    "31-60|lluvias|seco": {
+     "q": 0.0652,
+     "n": 107
+    },
+    "31-60|*|seco": {
+     "q": 0.0,
+     "n": 256
+    },
+    "4-30|estiaje|seco": {
+     "q": 0.0,
+     "n": 127
+    },
+    "4-30|lluvias|seco": {
+     "q": 0.1797,
+     "n": 58
+    },
+    "4-30|*|seco": {
+     "q": 0.0,
+     "n": 185
+    },
+    "61+|estiaje|seco": {
+     "q": 0.0,
+     "n": 1159
+    },
+    "61+|lluvias|seco": {
+     "q": 0.0,
+     "n": 565
+    },
+    "61+|*|seco": {
+     "q": 0.0,
+     "n": 1724
+    },
+    "*|*|seco": {
+     "q": 0.0,
+     "n": 2365
+    },
+    "*|*|*": {
+     "q": 0.0,
+     "n": 3111
+    }
+   },
+   "umbral_ancho_calidad": {
+    "ancho_p75": {
+     "humedo": 33.55243153673922,
+     "seco": 5.231380701020432,
+     "*": 11.72788548113092
+    },
+    "suma_corr_mediana": {
+     "humedo": 0.5426737120556304,
+     "seco": 0.5426737120556304,
+     "*": 0.5426737120556304
+    }
+   },
+   "afinado": {
+    "umbral_lluvia": 0.25,
+    "w_ens": 0.4
+   },
+   "cobertura_por_estrato": {
+    "corto|lluvias": {
+     "n": 65,
+     "total": 65,
+     "fraccion_estimada": 1.0,
+     "mae": 5.874295109713837,
+     "rmse": 9.668789167050477,
+     "sesgo": -0.6629569601687216,
+     "kge": 0.44986743009599195,
+     "cobertura": 0.8307692307692308,
+     "ancho_intervalo": 12.719866905590244,
+     "pod": 0.84375,
+     "far": 0.25
+    },
+    "corto|estiaje": {
+     "n": 67,
+     "total": 67,
+     "fraccion_estimada": 1.0,
+     "mae": 0.5044748902419977,
+     "rmse": 2.0229880200712076,
+     "sesgo": -0.07940857811226001,
+     "kge": 0.4786815722330946,
+     "cobertura": 0.9552238805970149,
+     "ancho_intervalo": 1.4569545780374709,
+     "pod": 0.5,
+     "far": 0.6
+    },
+    "medio|lluvias": {
+     "n": 42,
+     "total": 42,
+     "fraccion_estimada": 1.0,
+     "mae": 3.1410301935892395,
+     "rmse": 9.613739467016925,
+     "sesgo": 1.2805280854298466,
+     "kge": -0.8877373691157684,
+     "cobertura": 0.9523809523809523,
+     "ancho_intervalo": 11.54537940747529,
+     "pod": 0.5625,
+     "far": 0.1
+    },
+    "medio|estiaje": {
+     "n": 73,
+     "total": 73,
+     "fraccion_estimada": 1.0,
+     "mae": 0.5161060696705048,
+     "rmse": 1.9434126784890726,
+     "sesgo": 0.3999417364005126,
+     "kge": -0.7903692254267352,
+     "cobertura": 0.9863013698630136,
+     "ancho_intervalo": 1.296202589617185,
+     "pod": 0.75,
+     "far": 0.5
+    },
+    "largo|lluvias": {
+     "n": 499,
+     "total": 499,
+     "fraccion_estimada": 1.0,
+     "mae": 3.583674911841771,
+     "rmse": 7.291723783176827,
+     "sesgo": -0.16954567883595478,
+     "kge": 0.5177598799525993,
+     "cobertura": 0.9478957915831663,
+     "ancho_intervalo": 15.851865055779271,
+     "pod": 0.8313953488372093,
+     "far": 0.38626609442060084
+    },
+    "largo|estiaje": {
+     "n": 624,
+     "total": 624,
+     "fraccion_estimada": 1.0,
+     "mae": 0.2844497526145902,
+     "rmse": 2.110640818349137,
+     "sesgo": 0.016818695766793994,
+     "kge": 0.20911451895411004,
+     "cobertura": 0.9823717948717948,
+     "ancho_intervalo": 1.010899428085993,
+     "pod": 0.7916666666666666,
+     "far": 0.4722222222222222
+    }
+   },
+   "banderas_validacion": {
+    "estimado_alta": {
+     "n": 181,
+     "total": 181,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1410436315866777,
+     "rmse": 3.410128089445855,
+     "sesgo": -0.22927219843282312,
+     "kge": 0.5458953506856998,
+     "cobertura": 0.9558011049723757,
+     "ancho_intervalo": 4.02586387038082,
+     "pod": 0.696969696969697,
+     "far": 0.25806451612903225
+    },
+    "estimado_baja": {
+     "n": 1189,
+     "total": 1189,
+     "fraccion_estimada": 1.0,
+     "mae": 1.9717826243209988,
+     "rmse": 5.632020737012045,
+     "sesgo": 0.0016443982644925724,
+     "kge": 0.5756332328606539,
+     "cobertura": 0.9613120269133726,
+     "ancho_intervalo": 7.835270458510075,
+     "pod": 0.821917808219178,
+     "far": 0.3898305084745763
+    }
+   },
+   "recomendacion_por_hueco": {
+    "1-3": {
+     "mejor": "idw",
+     "mae": {
+      "ml": 3.72,
+      "vecinos": 2.754,
+      "lineal": 4.251,
+      "ens": 2.98,
+      "idw": 2.443
+     },
+     "n": 97
+    },
+    "4-30": {
+     "mejor": "ens",
+     "mae": {
+      "ml": 1.262,
+      "vecinos": 1.475,
+      "lineal": 2.777,
+      "ens": 1.236,
+      "idw": 1.339
+     },
+     "n": 115
+    },
+    "31-60": {
+     "mejor": "idw",
+     "mae": {
+      "ml": 2.917,
+      "vecinos": 1.915,
+      "ens": 2.058,
+      "idw": 1.857
+     },
+     "n": 169
+    },
+    "61+": {
+     "mejor": "ens",
+     "mae": {
+      "ml": 1.903,
+      "vecinos": 1.77,
+      "ens": 1.696,
+      "idw": 1.748
+     },
+     "n": 954
+    }
+   },
+   "regimen_conformal": {
+    "humedo": {
+     "n": 453
+    },
+    "seco": {
+     "n": 1288
+    }
+   },
+   "vecinas_por_estacion": [
+    1,
+    1
+   ]
+  },
+  "tmax": {
+   "modelo": {
+    "n": 1208,
+    "total": 1814,
+    "fraccion_estimada": 0.6659316427783903,
+    "mae": 1.2072915111277163,
+    "rmse": 1.5505052958041277,
+    "sesgo": 0.0446652766792157,
+    "kge": 0.8163366033319287,
+    "cobertura": 0.9412251655629139,
+    "ancho_intervalo": 7.340217450255693
+   },
+   "linea_base_idw": {
+    "n": 1362,
+    "total": 1814,
+    "fraccion_estimada": 0.7508269018743109,
+    "mae": 1.5374449339207048,
+    "rmse": 1.946418828388846,
+    "sesgo": 0.12041116005873749,
+    "kge": 0.789009582387594
+   },
+   "linea_base_vecinos": {
+    "n": 1362,
+    "total": 1814,
+    "fraccion_estimada": 0.7508269018743109,
+    "mae": 1.5124163641545878,
+    "rmse": 1.9285346338650298,
+    "sesgo": 0.06408762154995602,
+    "kge": 0.7721940097206667
+   },
+   "comparacion_comun": {
+    "n": 1182,
+    "modelo": {
+     "n": 1182,
+     "total": 1182,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2077621083832046,
+     "rmse": 1.5432563445190026,
+     "sesgo": 0.030560339166801388,
+     "kge": 0.8172557368386995
+    },
+    "idw": {
+     "n": 1182,
+     "total": 1182,
+     "fraccion_estimada": 1.0,
+     "mae": 1.5190355329949239,
+     "rmse": 1.9037210867958931,
+     "sesgo": 0.10109983079526264,
+     "kge": 0.789225139614961
+    },
+    "vecinos": {
+     "n": 1182,
+     "total": 1182,
+     "fraccion_estimada": 1.0,
+     "mae": 1.4800345140884754,
+     "rmse": 1.8559619927803732,
+     "sesgo": 0.11848084212351767,
+     "kge": 0.7855539717486973
+    }
+   },
+   "por_tipo_hueco": {
+    "corto": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2045454545454546,
+     "rmse": 1.5997208168674906,
+     "sesgo": 0.2859848484848485,
+     "kge": 0.8123554528225156,
+     "cobertura": 0.8939393939393939,
+     "ancho_intervalo": 5.069062106671114
+    },
+    "largo": {
+     "n": 977,
+     "total": 1550,
+     "fraccion_estimada": 0.6303225806451613,
+     "mae": 1.182097992552535,
+     "rmse": 1.5068772732581948,
+     "sesgo": 0.06269459674297866,
+     "kge": 0.8269477887661099,
+     "cobertura": 0.946775844421699,
+     "ancho_intervalo": 7.442803375332761
+    },
+    "medio": {
+     "n": 99,
+     "total": 132,
+     "fraccion_estimada": 0.75,
+     "mae": 1.459579865842975,
+     "rmse": 1.874488374227657,
+     "sesgo": -0.4550198665595715,
+     "kge": 0.7141403197070602,
+     "cobertura": 0.9494949494949495,
+     "ancho_intervalo": 9.356036203314957
+    }
+   },
+   "por_rango_hueco": {
+    "1-3": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2045454545454546,
+     "rmse": 1.5997208168674906,
+     "sesgo": 0.2859848484848485,
+     "kge": 0.8123554528225156,
+     "cobertura": 0.8939393939393939,
+     "ancho_intervalo": 5.069062106671114
+    },
+    "31-60": {
+     "n": 270,
+     "total": 280,
+     "fraccion_estimada": 0.9642857142857143,
+     "mae": 1.2658055831863269,
+     "rmse": 1.565471907118003,
+     "sesgo": -0.17777666070209447,
+     "kge": 0.8459750753119359,
+     "cobertura": 1.0,
+     "ancho_intervalo": 12.019010966898616
+    },
+    "4-30": {
+     "n": 99,
+     "total": 132,
+     "fraccion_estimada": 0.75,
+     "mae": 1.459579865842975,
+     "rmse": 1.874488374227657,
+     "sesgo": -0.4550198665595715,
+     "kge": 0.7141403197070602,
+     "cobertura": 0.9494949494949495,
+     "ancho_intervalo": 9.356036203314957
+    },
+    "61+": {
+     "n": 707,
+     "total": 1270,
+     "fraccion_estimada": 0.5566929133858268,
+     "mae": 1.1501304544038449,
+     "rmse": 1.4838898565215959,
+     "sesgo": 0.15452944753529796,
+     "kge": 0.8162129164200933,
+     "cobertura": 0.9264497878359265,
+     "ancho_intervalo": 5.69517105606433
+    }
+   },
+   "por_temporada": {
+    "estiaje": {
+     "n": 622,
+     "total": 1038,
+     "fraccion_estimada": 0.5992292870905588,
+     "mae": 1.206421102366561,
+     "rmse": 1.5662840721268902,
+     "sesgo": 0.19158679119279487,
+     "kge": 0.8733288605395049,
+     "cobertura": 0.9389067524115756,
+     "ancho_intervalo": 7.050342866260838
+    },
+    "lluvias": {
+     "n": 586,
+     "total": 776,
+     "fraccion_estimada": 0.7551546391752577,
+     "mae": 1.2082153920994545,
+     "rmse": 1.5335795730994293,
+     "sesgo": -0.11128213292393488,
+     "kge": 0.7000000456827853,
+     "cobertura": 0.9436860068259386,
+     "ancho_intervalo": 7.64790002917173
+    }
+   },
+   "por_estacion": {
+    "11096": {
+     "n": 506,
+     "total": 907,
+     "fraccion_estimada": 0.557883131201764,
+     "mae": 1.1919124648404757,
+     "rmse": 1.5943334574397923,
+     "sesgo": -0.05225971333965053,
+     "kge": 0.631437894281662,
+     "cobertura": 0.9466403162055336,
+     "ancho_intervalo": 7.514530688615515
+    },
+    "11136": {
+     "n": 702,
+     "total": 907,
+     "fraccion_estimada": 0.7739801543550165,
+     "mae": 1.2183766926396018,
+     "rmse": 1.5181295463837206,
+     "sesgo": 0.11452858857315633,
+     "kge": 0.8723539511955584,
+     "cobertura": 0.9373219373219374,
+     "ancho_intervalo": 7.21457286534106
+    }
+   },
+   "metodos_por_hueco": {
+    "corto": "lineal",
+    "medio": "ml",
+    "largo": "ens_local"
+   },
+   "seleccion_mae_por_metodo": {
+    "corto": {
+     "ml": 1.2959,
+     "lineal": 1.2541,
+     "ens": 1.2959,
+     "ens_local": 1.3451,
+     "n": 262
+    },
+    "medio": {
+     "ml": 1.5384,
+     "vecinos": 1.9473,
+     "lineal": 1.883,
+     "ens": 1.5384,
+     "idw": 2.1229,
+     "vecinos_local": 1.729,
+     "ens_local": 1.5569,
+     "n": 236
+    },
+    "largo": {
+     "ml": 1.8127,
+     "vecinos": 2.3112,
+     "ens": 1.8127,
+     "idw": 2.5238,
+     "vecinos_local": 2.0679,
+     "ens_local": 1.7683,
+     "n": 2614
+    }
+   },
+   "calibracion": {
+    "1-3|estiaje|*": {
+     "q": 0.9528,
+     "n": 64
+    },
+    "1-3|lluvias|*": {
+     "q": 1.4718,
+     "n": 68
+    },
+    "1-3|*|*": {
+     "q": 1.2381,
+     "n": 132
+    },
+    "31-60|lluvias|*": {
+     "q": 2.2986,
+     "n": 121
+    },
+    "31-60|*|*": {
+     "q": 2.2436,
+     "n": 156
+    },
+    "4-30|estiaje|*": {
+     "q": 1.5237,
+     "n": 81
+    },
+    "4-30|lluvias|*": {
+     "q": 2.3028,
+     "n": 43
+    },
+    "4-30|*|*": {
+     "q": 1.5852,
+     "n": 124
+    },
+    "61+|estiaje|*": {
+     "q": 1.0992,
+     "n": 704
+    },
+    "61+|lluvias|*": {
+     "q": 1.0368,
+     "n": 395
+    },
+    "61+|*|*": {
+     "q": 1.0592,
+     "n": 1099
+    },
+    "*|*|*": {
+     "q": 1.243,
+     "n": 1511
+    }
+   },
+   "calibracion_produccion": {
+    "1-3|estiaje|*": {
+     "q": 1.0446,
+     "n": 135
+    },
+    "1-3|lluvias|*": {
+     "q": 1.243,
+     "n": 129
+    },
+    "1-3|*|*": {
+     "q": 1.1622,
+     "n": 264
+    },
+    "31-60|estiaje|*": {
+     "q": 1.0723,
+     "n": 137
+    },
+    "31-60|lluvias|*": {
+     "q": 1.6326,
+     "n": 289
+    },
+    "31-60|*|*": {
+     "q": 1.3841,
+     "n": 426
+    },
+    "4-30|estiaje|*": {
+     "q": 1.5237,
+     "n": 130
+    },
+    "4-30|lluvias|*": {
+     "q": 1.564,
+     "n": 93
+    },
+    "4-30|*|*": {
+     "q": 1.5237,
+     "n": 223
+    },
+    "61+|estiaje|*": {
+     "q": 1.0015,
+     "n": 1104
+    },
+    "61+|lluvias|*": {
+     "q": 1.019,
+     "n": 702
+    },
+    "61+|*|*": {
+     "q": 1.0062,
+     "n": 1806
+    },
+    "*|*|*": {
+     "q": 1.1276,
+     "n": 2719
+    }
+   },
+   "umbral_ancho_calidad": {
+    "ancho_p75": {
+     "*": 8.067284363653583
+    },
+    "suma_corr_mediana": {
+     "*": 0.5419634472999322
+    }
+   },
+   "afinado": {
+    "w_ens": 1.0,
+    "w_ens_local": 0.7
+   },
+   "cobertura_por_estrato": {
+    "corto|lluvias": {
+     "n": 61,
+     "total": 61,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2704918032786885,
+     "rmse": 1.7362358789411088,
+     "sesgo": 0.3483606557377049,
+     "kge": 0.5419141384061673,
+     "cobertura": 0.9180327868852459,
+     "ancho_intervalo": 6.040898245274257
+    },
+    "corto|estiaje": {
+     "n": 71,
+     "total": 71,
+     "fraccion_estimada": 1.0,
+     "mae": 1.147887323943662,
+     "rmse": 1.4723587795054758,
+     "sesgo": 0.23239436619718304,
+     "kge": 0.8855113158960727,
+     "cobertura": 0.8732394366197183,
+     "ancho_intervalo": 4.234104297448695
+    },
+    "medio|lluvias": {
+     "n": 50,
+     "total": 50,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2167506684406302,
+     "rmse": 1.5251662129279515,
+     "sesgo": -0.5562592817429354,
+     "kge": 0.7568957659168283,
+     "cobertura": 1.0,
+     "ancho_intervalo": 10.306048279739203
+    },
+    "medio|estiaje": {
+     "n": 49,
+     "total": 49,
+     "fraccion_estimada": 1.0,
+     "mae": 1.7073647611514904,
+     "rmse": 2.173825561376977,
+     "sesgo": -0.35171434086226155,
+     "kge": 0.6277377207318025,
+     "cobertura": 0.8979591836734694,
+     "ancho_intervalo": 8.386636125331034
+    },
+    "largo|lluvias": {
+     "n": 475,
+     "total": 475,
+     "fraccion_estimada": 1.0,
+     "mae": 1.199319339680524,
+     "rmse": 1.506478389384217,
+     "sesgo": -0.12347024380269278,
+     "kge": 0.7081884716627733,
+     "cobertura": 0.9410526315789474,
+     "ancho_intervalo": 7.574467810833567
+    },
+    "largo|estiaje": {
+     "n": 502,
+     "total": 502,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1658028931784419,
+     "rmse": 1.50725460602069,
+     "sesgo": 0.2388465872991419,
+     "kge": 0.8851861351538883,
+     "cobertura": 0.952191235059761,
+     "ancho_intervalo": 7.318220493135783
+    }
+   },
+   "banderas_validacion": {
+    "estimado_alta": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2525016107328621,
+     "rmse": 1.574642619030142,
+     "sesgo": -0.015463938637824965,
+     "kge": 0.8231893346455075,
+     "cobertura": 0.8939393939393939,
+     "ancho_intervalo": 5.30034419181662
+    },
+    "estimado_baja": {
+     "n": 1076,
+     "total": 1076,
+     "fraccion_estimada": 1.0,
+     "mae": 1.201745290730059,
+     "rmse": 1.547518286163312,
+     "sesgo": 0.05204172316792332,
+     "kge": 0.8135782468468411,
+     "cobertura": 0.9470260223048327,
+     "ancho_intervalo": 7.590462125082791
+    }
+   },
+   "recomendacion_por_hueco": {
+    "1-3": {
+     "mejor": "ens_local",
+     "mae": {
+      "ml": 1.178,
+      "vecinos": 1.637,
+      "lineal": 1.209,
+      "ens": 1.178,
+      "idw": 1.703,
+      "vecinos_local": 1.256,
+      "ens_local": 1.085
+     },
+     "n": 106
+    },
+    "4-30": {
+     "mejor": "vecinos_local",
+     "mae": {
+      "ml": 1.46,
+      "vecinos": 1.814,
+      "lineal": 1.76,
+      "ens": 1.46,
+      "idw": 1.682,
+      "vecinos_local": 1.345,
+      "ens_local": 1.402
+     },
+     "n": 99
+    },
+    "31-60": {
+     "mejor": "vecinos_local",
+     "mae": {
+      "ml": 1.394,
+      "vecinos": 1.428,
+      "ens": 1.394,
+      "idw": 1.409,
+      "vecinos_local": 1.237,
+      "ens_local": 1.266
+     },
+     "n": 270
+    },
+    "61+": {
+     "mejor": "ens_local",
+     "mae": {
+      "ml": 1.194,
+      "vecinos": 1.43,
+      "ens": 1.194,
+      "idw": 1.511,
+      "vecinos_local": 1.366,
+      "ens_local": 1.15
+     },
+     "n": 707
+    }
+   },
+   "regimen_conformal": {
+    "*": {
+     "n": 1511
+    }
+   },
+   "vecinas_por_estacion": [
+    1,
+    1
+   ]
+  },
+  "tmin": {
+   "modelo": {
+    "n": 1554,
+    "total": 1814,
+    "fraccion_estimada": 0.856670341786108,
+    "mae": 1.2474752336277017,
+    "rmse": 1.577417736257092,
+    "sesgo": -0.059923504715460235,
+    "kge": 0.8716647949743759,
+    "cobertura": 0.8622908622908623,
+    "ancho_intervalo": 4.950208924937306
+   },
+   "linea_base_idw": {
+    "n": 1514,
+    "total": 1814,
+    "fraccion_estimada": 0.834619625137817,
+    "mae": 2.5181638044914134,
+    "rmse": 2.870930006412087,
+    "sesgo": 0.41248348745046237,
+    "kge": 0.6689530423762386
+   },
+   "linea_base_vecinos": {
+    "n": 1514,
+    "total": 1814,
+    "fraccion_estimada": 0.834619625137817,
+    "mae": 2.660147228857754,
+    "rmse": 3.019831454846423,
+    "sesgo": 0.4046338021773728,
+    "kge": 0.6371664814402548
+   },
+   "comparacion_comun": {
+    "n": 1514,
+    "modelo": {
+     "n": 1514,
+     "total": 1514,
+     "fraccion_estimada": 1.0,
+     "mae": 1.2499404533624714,
+     "rmse": 1.5816962915668353,
+     "sesgo": -0.06992808872379476,
+     "kge": 0.8715308283864553
+    },
+    "idw": {
+     "n": 1514,
+     "total": 1514,
+     "fraccion_estimada": 1.0,
+     "mae": 2.5181638044914134,
+     "rmse": 2.870930006412087,
+     "sesgo": 0.41248348745046237,
+     "kge": 0.6689530423762386
+    },
+    "vecinos": {
+     "n": 1514,
+     "total": 1514,
+     "fraccion_estimada": 1.0,
+     "mae": 2.660147228857754,
+     "rmse": 3.019831454846423,
+     "sesgo": 0.4046338021773728,
+     "kge": 0.6371664814402548
+    }
+   },
+   "por_tipo_hueco": {
+    "corto": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1079545454545454,
+     "rmse": 1.402690266297226,
+     "sesgo": -0.11742424242424244,
+     "kge": 0.9323697842685457,
+     "cobertura": 0.9545454545454546,
+     "ancho_intervalo": 5.439479636520185
+    },
+    "largo": {
+     "n": 1308,
+     "total": 1550,
+     "fraccion_estimada": 0.8438709677419355,
+     "mae": 1.2751630738336097,
+     "rmse": 1.611220386855375,
+     "sesgo": -0.03717930200207846,
+     "kge": 0.8500552104009873,
+     "cobertura": 0.8425076452599388,
+     "ancho_intervalo": 4.805726849422731
+    },
+    "medio": {
+     "n": 114,
+     "total": 132,
+     "fraccion_estimada": 0.8636363636363636,
+     "mae": 1.0913439691498847,
+     "rmse": 1.361795100765335,
+     "sesgo": -0.25430350271146174,
+     "kge": 0.9260576767877913,
+     "cobertura": 0.9824561403508771,
+     "ancho_intervalo": 6.041426651640148
+    }
+   },
+   "por_rango_hueco": {
+    "1-3": {
+     "n": 132,
+     "total": 132,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1079545454545454,
+     "rmse": 1.402690266297226,
+     "sesgo": -0.11742424242424244,
+     "kge": 0.9323697842685457,
+     "cobertura": 0.9545454545454546,
+     "ancho_intervalo": 5.439479636520185
+    },
+    "31-60": {
+     "n": 216,
+     "total": 280,
+     "fraccion_estimada": 0.7714285714285715,
+     "mae": 0.9515157667562251,
+     "rmse": 1.1944520588285217,
+     "sesgo": -0.056412935472269526,
+     "kge": 0.8207501060431349,
+     "cobertura": 0.9768518518518519,
+     "ancho_intervalo": 5.603932494778854
+    },
+    "4-30": {
+     "n": 114,
+     "total": 132,
+     "fraccion_estimada": 0.8636363636363636,
+     "mae": 1.0913439691498847,
+     "rmse": 1.361795100765335,
+     "sesgo": -0.25430350271146174,
+     "kge": 0.9260576767877913,
+     "cobertura": 0.9824561403508771,
+     "ancho_intervalo": 6.041426651640148
+    },
+    "61+": {
+     "n": 1092,
+     "total": 1270,
+     "fraccion_estimada": 0.8598425196850393,
+     "mae": 1.3391812224862794,
+     "rmse": 1.6814649249588631,
+     "sesgo": -0.03337484702995275,
+     "kge": 0.843912556883929,
+     "cobertura": 0.8159340659340659,
+     "ancho_intervalo": 4.647840018473169
+    }
+   },
+   "por_temporada": {
+    "estiaje": {
+     "n": 768,
+     "total": 919,
+     "fraccion_estimada": 0.8356909684439608,
+     "mae": 1.3386256806362873,
+     "rmse": 1.6827900490513419,
+     "sesgo": -0.13257284323671978,
+     "kge": 0.8490672899494871,
+     "cobertura": 0.859375,
+     "ancho_intervalo": 5.398076880891847
+    },
+    "lluvias": {
+     "n": 786,
+     "total": 895,
+     "fraccion_estimada": 0.8782122905027933,
+     "mae": 1.1584122014361067,
+     "rmse": 1.4671667623015143,
+     "sesgo": 0.011062108496152112,
+     "kge": 0.5605821853773572,
+     "cobertura": 0.8651399491094147,
+     "ancho_intervalo": 4.512597487058059
+    }
+   },
+   "por_estacion": {
+    "11096": {
+     "n": 649,
+     "total": 907,
+     "fraccion_estimada": 0.7155457552370452,
+     "mae": 1.2824320249095926,
+     "rmse": 1.6550778108622541,
+     "sesgo": -0.9429023298528315,
+     "kge": 0.8840119727186647,
+     "cobertura": 0.8659476117103235,
+     "ancho_intervalo": 5.24793899678602
+    },
+    "11136": {
+     "n": 905,
+     "total": 907,
+     "fraccion_estimada": 0.9977949283351709,
+     "mae": 1.2224067722553844,
+     "rmse": 1.5192834212087742,
+     "sesgo": 0.5732845146371961,
+     "kge": 0.8798387860683626,
+     "cobertura": 0.8596685082872928,
+     "ancho_intervalo": 4.736698630318726
+    }
+   },
+   "metodos_por_hueco": {
+    "corto": "lineal",
+    "medio": "ens_local",
+    "largo": "ens_local"
+   },
+   "seleccion_mae_por_metodo": {
+    "corto": {
+     "ml": 1.0397,
+     "lineal": 0.9938,
+     "ens": 1.0397,
+     "ens_local": 1.0329,
+     "n": 261
+    },
+    "medio": {
+     "ml": 1.3701,
+     "vecinos": 1.7578,
+     "lineal": 1.452,
+     "ens": 1.3701,
+     "idw": 1.5953,
+     "vecinos_local": 1.3995,
+     "ens_local": 1.3287,
+     "n": 236
+    },
+    "largo": {
+     "ml": 1.5038,
+     "vecinos": 2.1272,
+     "ens": 1.5038,
+     "idw": 2.0068,
+     "vecinos_local": 1.8032,
+     "ens_local": 1.4904,
+     "n": 2788
+    }
+   },
+   "calibracion": {
+    "1-3|estiaje|*": {
+     "q": 1.4284,
+     "n": 63
+    },
+    "1-3|lluvias|*": {
+     "q": 1.1843,
+     "n": 69
+    },
+    "1-3|*|*": {
+     "q": 1.2382,
+     "n": 132
+    },
+    "31-60|estiaje|*": {
+     "q": 1.1811,
+     "n": 122
+    },
+    "31-60|*|*": {
+     "q": 1.2687,
+     "n": 137
+    },
+    "4-30|estiaje|*": {
+     "q": 1.0957,
+     "n": 48
+    },
+    "4-30|lluvias|*": {
+     "q": 1.4331,
+     "n": 55
+    },
+    "4-30|*|*": {
+     "q": 1.2686,
+     "n": 103
+    },
+    "61+|estiaje|*": {
+     "q": 0.932,
+     "n": 681
+    },
+    "61+|lluvias|*": {
+     "q": 0.9162,
+     "n": 449
+    },
+    "61+|*|*": {
+     "q": 0.9268,
+     "n": 1130
+    },
+    "*|*|*": {
+     "q": 1.0162,
+     "n": 1502
+    }
+   },
+   "calibracion_produccion": {
+    "1-3|estiaje|*": {
+     "q": 1.2256,
+     "n": 130
+    },
+    "1-3|lluvias|*": {
+     "q": 1.1564,
+     "n": 134
+    },
+    "1-3|*|*": {
+     "q": 1.1817,
+     "n": 264
+    },
+    "31-60|estiaje|*": {
+     "q": 1.1589,
+     "n": 193
+    },
+    "31-60|lluvias|*": {
+     "q": 0.8479,
+     "n": 160
+    },
+    "31-60|*|*": {
+     "q": 0.9985,
+     "n": 353
+    },
+    "4-30|estiaje|*": {
+     "q": 0.9041,
+     "n": 98
+    },
+    "4-30|lluvias|*": {
+     "q": 1.2667,
+     "n": 119
+    },
+    "4-30|*|*": {
+     "q": 1.1448,
+     "n": 217
+    },
+    "61+|estiaje|*": {
+     "q": 1.0378,
+     "n": 1261
+    },
+    "61+|lluvias|*": {
+     "q": 1.116,
+     "n": 961
+    },
+    "61+|*|*": {
+     "q": 1.0694,
+     "n": 2222
+    },
+    "*|*|*": {
+     "q": 1.0771,
+     "n": 3056
+    }
+   },
+   "umbral_ancho_calidad": {
+    "ancho_p75": {
+     "*": 5.815520728479708
+    },
+    "suma_corr_mediana": {
+     "*": 0.4858830631594816
+    }
+   },
+   "afinado": {
+    "w_ens": 1.0,
+    "w_ens_local": 0.8
+   },
+   "cobertura_por_estrato": {
+    "corto|lluvias": {
+     "n": 65,
+     "total": 65,
+     "fraccion_estimada": 1.0,
+     "mae": 1.0237179487179486,
+     "rmse": 1.2416709688447238,
+     "sesgo": -0.12884615384615383,
+     "kge": 0.8672527585710952,
+     "cobertura": 0.9384615384615385,
+     "ancho_intervalo": 4.45966755608051
+    },
+    "corto|estiaje": {
+     "n": 67,
+     "total": 67,
+     "fraccion_estimada": 1.0,
+     "mae": 1.189676616915423,
+     "rmse": 1.5429267406560525,
+     "sesgo": -0.10634328358208955,
+     "kge": 0.8508056501171988,
+     "cobertura": 0.9701492537313433,
+     "ancho_intervalo": 6.39004359515569
+    },
+    "medio|lluvias": {
+     "n": 64,
+     "total": 64,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1960264290915874,
+     "rmse": 1.447521898704583,
+     "sesgo": -0.4162100613618763,
+     "kge": 0.6223276926623157,
+     "cobertura": 0.984375,
+     "ancho_intervalo": 5.81679953582135
+    },
+    "medio|estiaje": {
+     "n": 50,
+     "total": 50,
+     "fraccion_estimada": 1.0,
+     "mae": 0.9573504204245051,
+     "rmse": 1.2434704240530121,
+     "sesgo": -0.047063107638931026,
+     "kge": 0.9253902744517492,
+     "cobertura": 0.98,
+     "ancho_intervalo": 6.32894935988821
+    },
+    "largo|lluvias": {
+     "n": 657,
+     "total": 657,
+     "fraccion_estimada": 1.0,
+     "mae": 1.1680740216137773,
+     "rmse": 1.4894926512627409,
+     "sesgo": 0.06652551172775596,
+     "kge": 0.476544782442202,
+     "cobertura": 0.8462709284627092,
+     "ancho_intervalo": 4.390788528751652
+    },
+    "largo|estiaje": {
+     "n": 651,
+     "total": 651,
+     "fraccion_estimada": 1.0,
+     "mae": 1.3832391219264362,
+     "rmse": 1.7253847823432285,
+     "sesgo": -0.14183992046674995,
+     "kge": 0.8323675314041443,
+     "cobertura": 0.8387096774193549,
+     "ancho_intervalo": 5.2244894864133595
+    }
+   },
+   "banderas_validacion": {
+    "estimado_alta": {
+     "n": 109,
+     "total": 109,
+     "fraccion_estimada": 1.0,
+     "mae": 0.9938952777239375,
+     "rmse": 1.243136646730628,
+     "sesgo": -0.20814873695401803,
+     "kge": 0.8945043352525126,
+     "cobertura": 0.9724770642201835,
+     "ancho_intervalo": 4.842938824992199
+    },
+    "estimado_baja": {
+     "n": 1445,
+     "total": 1445,
+     "fraccion_estimada": 1.0,
+     "mae": 1.266603410232207,
+     "rmse": 1.5998027611629964,
+     "sesgo": -0.04874250103794963,
+     "kge": 0.8686075408677881,
+     "cobertura": 0.8539792387543252,
+     "ancho_intervalo": 4.9583005795352415
+    }
+   },
+   "recomendacion_por_hueco": {
+    "1-3": {
+     "mejor": "lineal",
+     "mae": {
+      "ml": 1.351,
+      "vecinos": 3.171,
+      "lineal": 1.088,
+      "ens": 1.351,
+      "idw": 2.967,
+      "vecinos_local": 1.26,
+      "ens_local": 1.247
+     },
+     "n": 92
+    },
+    "4-30": {
+     "mejor": "ens_local",
+     "mae": {
+      "ml": 1.22,
+      "vecinos": 2.648,
+      "lineal": 1.632,
+      "ens": 1.22,
+      "idw": 2.452,
+      "vecinos_local": 1.264,
+      "ens_local": 1.091
+     },
+     "n": 114
+    },
+    "31-60": {
+     "mejor": "ens_local",
+     "mae": {
+      "ml": 1.082,
+      "vecinos": 2.024,
+      "ens": 1.082,
+      "idw": 2.058,
+      "vecinos_local": 1.057,
+      "ens_local": 0.952
+     },
+     "n": 216
+    },
+    "61+": {
+     "mejor": "vecinos_local",
+     "mae": {
+      "ml": 1.491,
+      "vecinos": 2.744,
+      "ens": 1.491,
+      "idw": 2.578,
+      "vecinos_local": 1.205,
+      "ens_local": 1.339
+     },
+     "n": 1092
+    }
+   },
+   "regimen_conformal": {
+    "*": {
+     "n": 1502
+    }
+   },
+   "vecinas_por_estacion": [
+    1,
+    1
+   ]
+  }
+ },
+ "qc": {
+  "filas_crudas": 47915,
+  "ingesta": {
+   "fuentes": [
+    {
+     "archivo": "dia11096.txt",
+     "tipo": "txt",
+     "filas": 29589,
+     "estaciones": [
+      "11096"
+     ],
+     "desde": "1941-01-01",
+     "hasta": "2025-12-31"
+    },
+    {
+     "archivo": "dia11136.txt",
+     "tipo": "txt",
+     "filas": 15894,
+     "estaciones": [
+      "11136"
+     ],
+     "desde": "1977-10-01",
+     "hasta": "2025-07-31"
+    },
+    {
+     "archivo": "clicom_gto_salamanca_lajoyita_1981_2025.csv",
+     "tipo": "csv",
+     "filas": 32872,
+     "estaciones": [
+      "11096",
+      "11136"
+     ],
+     "desde": "1981-01-01",
+     "hasta": "2025-12-31"
+    }
+   ],
+   "conflictos_entre_fuentes": 0,
+   "dias_completados_con_otra_fuente": 0,
+   "fechas_duplicadas_en_una_fuente": 0,
+   "longitudes_con_signo_corregido": 0,
+   "estaciones": [
+    "11096",
+    "11136"
+   ]
+  },
+  "duplicados_exactos_eliminados": 0,
+  "duplicados_conflictivos_descartados": 0,
+  "precipitacion_codigos_de_faltante": 0,
+  "precipitacion_fuera_de_rango": 0,
+  "tmax_codigos_de_faltante": 0,
+  "tmax_fuera_de_rango": 0,
+  "tmin_codigos_de_faltante": 0,
+  "tmin_fuera_de_rango": 0,
+  "operacion_inferida_de_datos": false,
+  "tmax_menor_que_tmin": 0,
+  "rango_diurno_excesivo": 0,
+  "precipitacion_atipicos_severos_descartados": 0,
+  "precipitacion_sospechosos": 0,
+  "tmax_atipicos_severos_descartados": 87,
+  "tmax_sospechosos": 87,
+  "tmin_atipicos_severos_descartados": 71,
+  "tmin_sospechosos": 71,
+  "precipitacion_ceros_incompatibles_con_vecinas": 0,
+  "objetivos_a_estimar": 0
+ },
+ "advertencias": [
+  "precipitacion: cobertura global 0.96 se aleja del nominal 0.90.",
+  "tmax: la bandera 'alta confianza' NO tiene menos error que 'baja' (MAE 1.25 vs 1.20)."
+ ],
+ "pares_tmax_tmin_corregidos": 0,
+ "estaciones_con_cambio_abrupto": [
+  "11096:tmax",
+  "11096:tmin",
+  "11136:tmax",
+  "11136:tmin"
+ ],
+ "protocolo": {
+  "bloques": "40% entrenamiento / 20% selecci\u00f3n / 20% calibraci\u00f3n / 20% evaluaci\u00f3n (cronol\u00f3gicos)",
+  "huecos_evaluacion_dias": [
+   1,
+   2,
+   3,
+   8,
+   17,
+   35,
+   45,
+   60,
+   90,
+   180,
+   365
+  ],
+  "rondas": 3,
+  "semilla": 784,
+  "intervalo_nominal": 0.9,
+  "dia_lluvioso_mm": 0.1,
+  "reentrenado_con_todo_el_historico": true,
+  "calibracion_nota": "Las m\u00e9tricas usan intervalos calibrados con la ventana de calibraci\u00f3n (que no vio la de evaluaci\u00f3n). Para rellenar huecos reales los intervalos se recalibran con calibraci\u00f3n + evaluaci\u00f3n (el error m\u00e1s reciente) y se aplican al modelo reentrenado con todo el hist\u00f3rico (limitaci\u00f3n conocida: no es validaci\u00f3n cruzada CV+).",
+  "particiones_desde": "1977-10-01",
+  "estaciones_en_red": 2,
+  "umbrales_ajustados_por_red_pequena": {
+   "min_neighbors_estimate": 1,
+   "min_neighbors_alta": 1
+  },
+  "nota": "M\u00e9tricas sobre huecos artificiales del hist\u00f3rico disponible. No son el conjunto oculto del comit\u00e9."
+ }
+}

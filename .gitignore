@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+# Verdades de evaluación del comité/laboratorio: nunca al repositorio ni al entrenamiento
+evaluation/
+**/verdad_*.csv
+.env

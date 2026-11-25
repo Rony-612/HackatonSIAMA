@@ -1,0 +1,14 @@
+{
+ "clave": "geotrust",
+ "nombre": "GeoTrust SIAMA",
+ "acento": "#1d4ed8",
+ "lema": "Cada dato estimado con su pasaporte",
+ "modelo": "HistGradientBoosting + cuantiles 5/95 + enrutador por longitud de hueco",
+ "intervalos": "Conformal CQR de Mondrian (tipo de hueco x temporada x régimen húmedo/seco)",
+ "distintivo": [
+  "trazabilidad_vecinos",
+  "homogeneidad",
+  "asistente",
+  "recomendacion_metodo"
+ ]
+}

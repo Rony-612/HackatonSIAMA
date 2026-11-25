@@ -1,0 +1,5288 @@
+{
+ "precipitacion": [
+  {
+   "clave_estacion": "SIM001",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 51.32,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 20.7,
+     "correlacion": 0.716,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 45.98,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": -240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.74,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 36.67,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 81.85,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 54.35,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 40.28,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 50.31,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 61.53,
+     "correlacion": 0.708,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 81.81,
+     "correlacion": 0.677,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 70.33,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 79.01,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 71.34,
+     "correlacion": 0.711,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 123.14,
+     "correlacion": 0.691,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM002",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 32.93,
+     "correlacion": 0.7,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 32.77,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 54.5,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 60.65,
+     "correlacion": 0.716,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 76.84,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.92,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": -80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 95.84,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 45.98,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": 240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 63.03,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 121.73,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 77.91,
+     "correlacion": 0.676,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 111.54,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 100.33,
+     "correlacion": 0.691,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 157.09,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 121.9,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": 260.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM003",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 11.39,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.77,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 31.15,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 42.55,
+     "correlacion": 0.682,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 47.59,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 66.06,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 64.23,
+     "correlacion": 0.669,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 20.7,
+     "correlacion": 0.716,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 78.77,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 89.24,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 57.36,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 64.23,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 71.74,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 125.33,
+     "correlacion": 0.711,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 102.53,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM004",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 19.17,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 35.31,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 33.59,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 31.15,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 27.77,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 60.65,
+     "correlacion": 0.716,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 46.86,
+     "correlacion": 0.662,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 57.63,
+     "correlacion": 0.665,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 71.0,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 40.28,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 96.84,
+     "correlacion": 0.728,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 68.8,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 69.8,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 91.23,
+     "correlacion": 0.715,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 111.05,
+     "correlacion": 0.697,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM005",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 14.95,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 41.17,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 55.47,
+     "correlacion": 0.688,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 39.96,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 57.63,
+     "correlacion": 0.665,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 78.77,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 44.16,
+     "correlacion": 0.647,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 89.33,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.08,
+     "correlacion": 0.67,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 81.65,
+     "correlacion": 0.653,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 111.54,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 94.29,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 92.16,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 71.34,
+     "correlacion": 0.711,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 114.17,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM006",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 19.17,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 20.04,
+     "correlacion": 0.682,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 47.59,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 49.37,
+     "correlacion": 0.669,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 46.39,
+     "correlacion": 0.668,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 39.96,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 56.35,
+     "correlacion": 0.674,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 78.92,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": 80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 54.18,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 50.31,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 78.17,
+     "correlacion": 0.685,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 60.97,
+     "correlacion": 0.703,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 71.35,
+     "correlacion": 0.644,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 101.19,
+     "correlacion": 0.687,
+     "diferencia_altitud_m": 370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 107.59,
+     "correlacion": 0.664,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM007",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 34.08,
+     "correlacion": 0.65,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 45.26,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 72.63,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 36.67,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 72.08,
+     "correlacion": 0.67,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 127.54,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 57.36,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 68.3,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 45.91,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 77.91,
+     "correlacion": 0.676,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.47,
+     "correlacion": 0.701,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 69.8,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 96.86,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 89.79,
+     "correlacion": 0.697,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 71.35,
+     "correlacion": 0.644,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM008",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 34.08,
+     "correlacion": 0.65,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 40.51,
+     "correlacion": 0.704,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 49.0,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 44.16,
+     "correlacion": 0.647,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 97.87,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 54.35,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 80.12,
+     "correlacion": 0.687,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 60.97,
+     "correlacion": 0.703,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 71.74,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 68.8,
+     "correlacion": 0.689,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 100.33,
+     "correlacion": 0.691,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 79.95,
+     "correlacion": 0.702,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.08,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 74.4,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 101.58,
+     "correlacion": 0.677,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM009",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 51.32,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 74.19,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 63.03,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.91,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 74.62,
+     "correlacion": 0.714,
+     "diferencia_altitud_m": -300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 79.95,
+     "correlacion": 0.702,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 128.2,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 91.23,
+     "correlacion": 0.715,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 105.89,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 101.19,
+     "correlacion": 0.687,
+     "diferencia_altitud_m": -370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 121.22,
+     "correlacion": 0.701,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 117.13,
+     "correlacion": 0.731,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 169.09,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 114.17,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM010",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 22.84,
+     "correlacion": 0.648,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 53.58,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 55.41,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 76.84,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.669,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 46.86,
+     "correlacion": 0.662,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 56.35,
+     "correlacion": 0.674,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 113.42,
+     "correlacion": 0.69,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.81,
+     "correlacion": 0.677,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 109.14,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 115.47,
+     "correlacion": 0.701,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 94.29,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 115.08,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 128.2,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 157.81,
+     "correlacion": 0.665,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM011",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 20.04,
+     "correlacion": 0.682,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 35.31,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 56.67,
+     "correlacion": 0.685,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 66.06,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 41.17,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 55.41,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 62.91,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 95.84,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 56.03,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 63.31,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 70.33,
+     "correlacion": 0.705,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 74.4,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 89.79,
+     "correlacion": 0.697,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 121.22,
+     "correlacion": 0.701,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 122.83,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM012",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 57.97,
+     "correlacion": 0.729,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 55.47,
+     "correlacion": 0.688,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 97.87,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 63.31,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 127.54,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 113.42,
+     "correlacion": 0.69,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 96.84,
+     "correlacion": 0.728,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.17,
+     "correlacion": 0.685,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 124.49,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 119.43,
+     "correlacion": 0.72,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 125.33,
+     "correlacion": 0.711,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 142.74,
+     "correlacion": 0.714,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 157.09,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 123.14,
+     "correlacion": 0.691,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 169.09,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM013",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.26,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 49.0,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.19,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.85,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 85.04,
+     "correlacion": 0.732,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 142.74,
+     "correlacion": 0.714,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 92.16,
+     "correlacion": 0.671,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 113.3,
+     "correlacion": 0.703,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.9,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": -260.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 102.53,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 111.05,
+     "correlacion": 0.697,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 122.83,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 140.74,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 107.59,
+     "correlacion": 0.664,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 157.81,
+     "correlacion": 0.665,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM014",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 11.39,
+     "correlacion": 0.683,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.93,
+     "correlacion": 0.7,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 27.77,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 31.45,
+     "correlacion": 0.679,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 53.58,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 46.39,
+     "correlacion": 0.668,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 62.91,
+     "correlacion": 0.673,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 31.74,
+     "correlacion": 0.695,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 93.37,
+     "correlacion": 0.731,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 81.65,
+     "correlacion": 0.653,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 68.3,
+     "correlacion": 0.686,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.62,
+     "correlacion": 0.714,
+     "diferencia_altitud_m": 300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 80.12,
+     "correlacion": 0.687,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 124.49,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 113.3,
+     "correlacion": 0.703,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM015",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 14.95,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 57.97,
+     "correlacion": 0.729,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 40.51,
+     "correlacion": 0.704,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.03,
+     "correlacion": 0.694,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 54.18,
+     "correlacion": 0.699,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.63,
+     "correlacion": 0.707,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 89.24,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 71.0,
+     "correlacion": 0.712,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 93.37,
+     "correlacion": 0.731,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 103.43,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 85.04,
+     "correlacion": 0.732,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 109.14,
+     "correlacion": 0.718,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.73,
+     "correlacion": 0.706,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 79.01,
+     "correlacion": 0.723,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 117.13,
+     "correlacion": 0.731,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM016",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 33.59,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.45,
+     "correlacion": 0.679,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 42.55,
+     "correlacion": 0.682,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.67,
+     "correlacion": 0.685,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 49.37,
+     "correlacion": 0.669,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 54.5,
+     "correlacion": 0.696,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 22.84,
+     "correlacion": 0.648,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 89.33,
+     "correlacion": 0.681,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 61.53,
+     "correlacion": 0.708,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 103.43,
+     "correlacion": 0.684,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 119.43,
+     "correlacion": 0.72,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 96.86,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 101.58,
+     "correlacion": 0.677,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 105.89,
+     "correlacion": 0.678,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 140.74,
+     "correlacion": 0.698,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": false
+    }
+   ]
+  }
+ ],
+ "tmax": [
+  {
+   "clave_estacion": "SIM001",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 51.32,
+     "correlacion": 0.411,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.74,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 20.7,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 36.67,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 81.85,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 40.28,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 81.81,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 50.31,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 54.35,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 61.53,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 45.98,
+     "correlacion": 0.406,
+     "diferencia_altitud_m": -240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 70.33,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 79.01,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 71.34,
+     "correlacion": 0.434,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 123.14,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM002",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 32.93,
+     "correlacion": 0.447,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 32.77,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 76.84,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 60.65,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 54.5,
+     "correlacion": 0.428,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.92,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": -80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 95.84,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 77.91,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 45.98,
+     "correlacion": 0.406,
+     "diferencia_altitud_m": 240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 121.73,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 100.33,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 111.54,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 63.03,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 157.09,
+     "correlacion": 0.475,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 121.9,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 260.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM003",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 11.39,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 42.55,
+     "correlacion": 0.482,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.77,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 31.15,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 47.59,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 66.06,
+     "correlacion": 0.453,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 64.23,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 78.77,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 89.24,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 20.7,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 57.36,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 71.74,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 64.23,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 125.33,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 102.53,
+     "correlacion": 0.492,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM004",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 33.59,
+     "correlacion": 0.496,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 19.17,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 35.31,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 27.77,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 31.15,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 46.86,
+     "correlacion": 0.472,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 60.65,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 57.63,
+     "correlacion": 0.474,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 71.0,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 40.28,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 69.8,
+     "correlacion": 0.493,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 96.84,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 68.8,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 91.23,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 111.05,
+     "correlacion": 0.508,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM005",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 14.95,
+     "correlacion": 0.429,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 55.47,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 39.96,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 41.17,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 57.63,
+     "correlacion": 0.474,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 44.16,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 78.77,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.08,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 81.65,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 89.33,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 94.29,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 92.16,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 111.54,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 71.34,
+     "correlacion": 0.434,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 114.17,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM006",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 20.04,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 19.17,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 49.37,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 47.59,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 46.39,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 39.96,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 78.92,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": 80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 56.35,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 54.18,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 50.31,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 78.17,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 71.35,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 60.97,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 101.19,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 107.59,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM007",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 34.08,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 45.26,
+     "correlacion": 0.484,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 72.63,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 72.08,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 36.67,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 127.54,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 69.8,
+     "correlacion": 0.493,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 68.3,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 77.91,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 57.36,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 45.91,
+     "correlacion": 0.419,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 96.86,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 71.35,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.47,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 89.79,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM008",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 34.08,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 49.0,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 40.51,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 44.16,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 97.87,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 80.12,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 54.35,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 71.74,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 100.33,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 68.8,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 74.4,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 60.97,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.08,
+     "correlacion": 0.409,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 79.95,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 101.58,
+     "correlacion": 0.416,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM009",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 51.32,
+     "correlacion": 0.411,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 74.19,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.91,
+     "correlacion": 0.419,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 63.03,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 74.62,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": -300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 91.23,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 128.2,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 79.95,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 105.89,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 101.19,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 121.22,
+     "correlacion": 0.409,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 114.17,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 117.13,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 169.09,
+     "correlacion": 0.41,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM010",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 53.58,
+     "correlacion": 0.48,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 46.86,
+     "correlacion": 0.472,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 22.84,
+     "correlacion": 0.408,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 76.84,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 55.41,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 56.35,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.81,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 94.29,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 109.14,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 113.42,
+     "correlacion": 0.419,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 115.47,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 128.2,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 115.08,
+     "correlacion": 0.409,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 157.81,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM011",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 20.04,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 35.31,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 56.67,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 62.91,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 66.06,
+     "correlacion": 0.453,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 55.41,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 41.17,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 56.03,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 95.84,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 63.31,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 70.33,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 74.4,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 89.79,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 122.83,
+     "correlacion": 0.499,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 121.22,
+     "correlacion": 0.409,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM012",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 57.97,
+     "correlacion": 0.46,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 55.47,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 97.87,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 63.31,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 127.54,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.17,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 96.84,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 124.49,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 113.42,
+     "correlacion": 0.419,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 125.33,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 157.09,
+     "correlacion": 0.475,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 119.43,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 142.74,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 123.14,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 169.09,
+     "correlacion": 0.41,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM013",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.26,
+     "correlacion": 0.484,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 49.0,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.85,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.19,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 85.04,
+     "correlacion": 0.467,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 92.16,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 142.74,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 102.53,
+     "correlacion": 0.492,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 111.05,
+     "correlacion": 0.508,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 122.83,
+     "correlacion": 0.499,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 113.3,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 107.59,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 140.74,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.9,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -260.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 157.81,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM014",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 11.39,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.93,
+     "correlacion": 0.447,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 27.77,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 31.45,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 53.58,
+     "correlacion": 0.48,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 62.91,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 46.39,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 31.74,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 93.37,
+     "correlacion": 0.488,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 81.65,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 80.12,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 68.3,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 124.49,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.62,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": 300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 113.3,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM015",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 14.95,
+     "correlacion": 0.429,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 57.97,
+     "correlacion": 0.46,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 40.51,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.63,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 54.18,
+     "correlacion": 0.452,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.03,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 93.37,
+     "correlacion": 0.488,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 89.24,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 71.0,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 103.43,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 85.04,
+     "correlacion": 0.467,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 109.14,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.73,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 79.01,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 117.13,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM016",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 33.59,
+     "correlacion": 0.496,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 42.55,
+     "correlacion": 0.482,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.67,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.45,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 49.37,
+     "correlacion": 0.441,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 22.84,
+     "correlacion": 0.408,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 54.5,
+     "correlacion": 0.428,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 89.33,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 103.43,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 61.53,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 96.86,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 119.43,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 105.89,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 101.58,
+     "correlacion": 0.416,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 140.74,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": false
+    }
+   ]
+  }
+ ],
+ "tmin": [
+  {
+   "clave_estacion": "SIM001",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 51.32,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 20.7,
+     "correlacion": 0.467,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 81.85,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.74,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 36.67,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 45.98,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": -240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 50.31,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 54.35,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": -130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 40.28,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 81.81,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 61.53,
+     "correlacion": 0.427,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 70.33,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 79.01,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 71.34,
+     "correlacion": 0.449,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 123.14,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": -200.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM002",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 32.77,
+     "correlacion": 0.424,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 32.93,
+     "correlacion": 0.398,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 54.5,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 76.84,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 60.65,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.92,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 95.84,
+     "correlacion": 0.454,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 45.98,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": 240.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 77.91,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 111.54,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 121.73,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 100.33,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 63.03,
+     "correlacion": 0.397,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 157.09,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 121.9,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 260.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM003",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 11.39,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 31.15,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 47.59,
+     "correlacion": 0.484,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 42.55,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.77,
+     "correlacion": 0.424,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 64.23,
+     "correlacion": 0.447,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 66.06,
+     "correlacion": 0.414,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 20.7,
+     "correlacion": 0.467,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 78.77,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 89.24,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 57.36,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 64.23,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 125.33,
+     "correlacion": 0.453,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 71.74,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 102.53,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM004",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 19.17,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 35.31,
+     "correlacion": 0.433,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 31.15,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 33.59,
+     "correlacion": 0.434,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 27.77,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 46.86,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 60.65,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 57.63,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 71.0,
+     "correlacion": 0.479,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 40.28,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 69.8,
+     "correlacion": 0.461,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 96.84,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 68.8,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 91.23,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 111.05,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM005",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 14.95,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 41.17,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 44.16,
+     "correlacion": 0.477,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 39.96,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 55.47,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 57.63,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 78.77,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 81.65,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.08,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 89.33,
+     "correlacion": 0.423,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 94.29,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 92.16,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 111.54,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 71.34,
+     "correlacion": 0.449,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 114.17,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM006",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 19.17,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 20.04,
+     "correlacion": 0.454,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 47.59,
+     "correlacion": 0.484,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 49.37,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 46.39,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 39.96,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 56.35,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 78.92,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": 80.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 54.18,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 50.31,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 78.17,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 60.97,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 71.35,
+     "correlacion": 0.46,
+     "diferencia_altitud_m": 190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 101.19,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": 370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 107.59,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM007",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 34.08,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 45.26,
+     "correlacion": 0.479,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 72.63,
+     "correlacion": 0.449,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 36.67,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 72.08,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 57.36,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 127.54,
+     "correlacion": 0.416,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 68.3,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 69.8,
+     "correlacion": 0.461,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 77.91,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 45.91,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 71.35,
+     "correlacion": 0.46,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.47,
+     "correlacion": 0.425,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 96.86,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 89.79,
+     "correlacion": 0.398,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM008",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 34.08,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 44.16,
+     "correlacion": 0.477,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 49.0,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": 150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 40.51,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 97.87,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 54.35,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": 130.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 115.08,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 74.4,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 60.97,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": -190.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 80.12,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 68.8,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 100.33,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 71.74,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": -140.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 79.95,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 101.58,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": -160.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM009",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 51.32,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 74.19,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.91,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 101.19,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": -370.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 79.95,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": -180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 63.03,
+     "correlacion": 0.397,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 128.2,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 74.62,
+     "correlacion": 0.403,
+     "diferencia_altitud_m": -300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 91.23,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 121.22,
+     "correlacion": 0.408,
+     "diferencia_altitud_m": -360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 117.13,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": -320.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 105.89,
+     "correlacion": 0.379,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 114.17,
+     "correlacion": 0.443,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 169.09,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": -250.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM010",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 53.58,
+     "correlacion": 0.481,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 55.41,
+     "correlacion": 0.474,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 46.86,
+     "correlacion": 0.458,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 22.84,
+     "correlacion": 0.4,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 76.84,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 64.23,
+     "correlacion": 0.447,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 56.35,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 113.42,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.81,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 94.29,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 109.14,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 115.08,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 115.47,
+     "correlacion": 0.425,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 128.2,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 157.81,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM011",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 20.04,
+     "correlacion": 0.454,
+     "diferencia_altitud_m": -10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 35.31,
+     "correlacion": 0.433,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 41.17,
+     "correlacion": 0.466,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 55.41,
+     "correlacion": 0.474,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 56.67,
+     "correlacion": 0.413,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 62.91,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 66.06,
+     "correlacion": 0.414,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 95.84,
+     "correlacion": 0.454,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 56.03,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 63.31,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 74.4,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 70.33,
+     "correlacion": 0.439,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 89.79,
+     "correlacion": 0.398,
+     "diferencia_altitud_m": 180.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 121.22,
+     "correlacion": 0.408,
+     "diferencia_altitud_m": 360.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 122.83,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": 330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM012",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 57.97,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 55.47,
+     "correlacion": 0.442,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 97.87,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 113.42,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 78.17,
+     "correlacion": 0.469,
+     "diferencia_altitud_m": -120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 127.54,
+     "correlacion": 0.416,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 63.31,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 96.84,
+     "correlacion": 0.455,
+     "diferencia_altitud_m": -110.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 142.74,
+     "correlacion": 0.483,
+     "diferencia_altitud_m": 220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 125.33,
+     "correlacion": 0.453,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 124.49,
+     "correlacion": 0.421,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 119.43,
+     "correlacion": 0.425,
+     "diferencia_altitud_m": -90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 157.09,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 123.14,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 200.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 169.09,
+     "correlacion": 0.445,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM013",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 45.26,
+     "correlacion": 0.479,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 49.0,
+     "correlacion": 0.464,
+     "diferencia_altitud_m": -150.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.19,
+     "correlacion": 0.459,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 81.85,
+     "correlacion": 0.462,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 85.04,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 92.16,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 142.74,
+     "correlacion": 0.483,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 102.53,
+     "correlacion": 0.465,
+     "diferencia_altitud_m": -290.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 107.59,
+     "correlacion": 0.49,
+     "diferencia_altitud_m": -340.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 157.81,
+     "correlacion": 0.476,
+     "diferencia_altitud_m": -220.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.9,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -260.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 111.05,
+     "correlacion": 0.468,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 113.3,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 140.74,
+     "correlacion": 0.472,
+     "diferencia_altitud_m": -310.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 122.83,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": -330.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM014",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 11.39,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 27.77,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 53.58,
+     "correlacion": 0.481,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 31.45,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 32.93,
+     "correlacion": 0.398,
+     "diferencia_altitud_m": 10.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 46.39,
+     "correlacion": 0.426,
+     "diferencia_altitud_m": -70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 62.91,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": -60.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 31.74,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 250.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 81.65,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 93.37,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 68.3,
+     "correlacion": 0.431,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 80.12,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": 120.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 124.49,
+     "correlacion": 0.421,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 74.62,
+     "correlacion": 0.403,
+     "diferencia_altitud_m": 300.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 113.3,
+     "correlacion": 0.437,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM015",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 14.95,
+     "correlacion": 0.44,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 57.97,
+     "correlacion": 0.451,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 40.51,
+     "correlacion": 0.444,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 54.18,
+     "correlacion": 0.463,
+     "diferencia_altitud_m": -50.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 71.0,
+     "correlacion": 0.479,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 72.63,
+     "correlacion": 0.449,
+     "diferencia_altitud_m": 140.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.03,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": -40.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 89.24,
+     "correlacion": 0.435,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 93.37,
+     "correlacion": 0.432,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 109.14,
+     "correlacion": 0.47,
+     "diferencia_altitud_m": 70.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 85.04,
+     "correlacion": 0.473,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM016",
+     "distancia_km": 103.43,
+     "correlacion": 0.429,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 121.73,
+     "correlacion": 0.438,
+     "diferencia_altitud_m": 30.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 79.01,
+     "correlacion": 0.45,
+     "diferencia_altitud_m": 270.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 117.13,
+     "correlacion": 0.457,
+     "diferencia_altitud_m": 320.0,
+     "misma_cuenca": false
+    }
+   ]
+  },
+  {
+   "clave_estacion": "SIM016",
+   "vecinos": [
+    {
+     "clave_estacion": "SIM004",
+     "distancia_km": 33.59,
+     "correlacion": 0.434,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM003",
+     "distancia_km": 42.55,
+     "correlacion": 0.436,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM006",
+     "distancia_km": 49.37,
+     "correlacion": 0.448,
+     "diferencia_altitud_m": -30.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM014",
+     "distancia_km": 31.45,
+     "correlacion": 0.422,
+     "diferencia_altitud_m": 40.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM002",
+     "distancia_km": 54.5,
+     "correlacion": 0.446,
+     "diferencia_altitud_m": 50.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM011",
+     "distancia_km": 56.67,
+     "correlacion": 0.413,
+     "diferencia_altitud_m": -20.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM010",
+     "distancia_km": 22.84,
+     "correlacion": 0.4,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM005",
+     "distancia_km": 89.33,
+     "correlacion": 0.423,
+     "diferencia_altitud_m": 0.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM015",
+     "distancia_km": 103.43,
+     "correlacion": 0.429,
+     "diferencia_altitud_m": 20.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM001",
+     "distancia_km": 61.53,
+     "correlacion": 0.427,
+     "diferencia_altitud_m": 290.0,
+     "misma_cuenca": true
+    },
+    {
+     "clave_estacion": "SIM012",
+     "distancia_km": 119.43,
+     "correlacion": 0.425,
+     "diferencia_altitud_m": 90.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM007",
+     "distancia_km": 96.86,
+     "correlacion": 0.42,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM008",
+     "distancia_km": 101.58,
+     "correlacion": 0.418,
+     "diferencia_altitud_m": 160.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM013",
+     "distancia_km": 140.74,
+     "correlacion": 0.472,
+     "diferencia_altitud_m": 310.0,
+     "misma_cuenca": false
+    },
+    {
+     "clave_estacion": "SIM009",
+     "distancia_km": 105.89,
+     "correlacion": 0.379,
+     "diferencia_altitud_m": 340.0,
+     "misma_cuenca": true
+    }
+   ]
+  }
+ ]
+}

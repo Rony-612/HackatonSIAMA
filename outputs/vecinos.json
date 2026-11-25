@@ -1,0 +1,80 @@
+{
+ "precipitacion": [
+  {
+   "clave_estacion": "11096",
+   "vecinos": [
+    {
+     "clave_estacion": "11136",
+     "distancia_km": 5.83,
+     "correlacion": 0.595,
+     "diferencia_altitud_m": -1.0,
+     "misma_cuenca": null
+    }
+   ]
+  },
+  {
+   "clave_estacion": "11136",
+   "vecinos": [
+    {
+     "clave_estacion": "11096",
+     "distancia_km": 5.83,
+     "correlacion": 0.595,
+     "diferencia_altitud_m": 1.0,
+     "misma_cuenca": null
+    }
+   ]
+  }
+ ],
+ "tmax": [
+  {
+   "clave_estacion": "11096",
+   "vecinos": [
+    {
+     "clave_estacion": "11136",
+     "distancia_km": 5.83,
+     "correlacion": 0.528,
+     "diferencia_altitud_m": -1.0,
+     "misma_cuenca": null
+    }
+   ]
+  },
+  {
+   "clave_estacion": "11136",
+   "vecinos": [
+    {
+     "clave_estacion": "11096",
+     "distancia_km": 5.83,
+     "correlacion": 0.528,
+     "diferencia_altitud_m": 1.0,
+     "misma_cuenca": null
+    }
+   ]
+  }
+ ],
+ "tmin": [
+  {
+   "clave_estacion": "11096",
+   "vecinos": [
+    {
+     "clave_estacion": "11136",
+     "distancia_km": 5.83,
+     "correlacion": 0.417,
+     "diferencia_altitud_m": -1.0,
+     "misma_cuenca": null
+    }
+   ]
+  },
+  {
+   "clave_estacion": "11136",
+   "vecinos": [
+    {
+     "clave_estacion": "11096",
+     "distancia_km": 5.83,
+     "correlacion": 0.417,
+     "diferencia_altitud_m": 1.0,
+     "misma_cuenca": null
+    }
+   ]
+  }
+ ]
+}

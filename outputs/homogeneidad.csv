@@ -1,0 +1,7 @@
+clave_estacion,variable,estadistico_T,critico_aprox,posible_cambio,fecha_probable,salto_medio,unidad_salto,meses_usados
+11096,precipitacion,4.85,9.0,False,,0.0,%,494
+11136,precipitacion,4.85,9.0,False,,0.0,%,494
+11096,tmax,58.05,9.0,True,2003-09,1.07,°C,486
+11136,tmax,58.05,9.0,True,2003-09,-1.07,°C,486
+11096,tmin,199.53,9.0,True,1993-03,2.15,°C,485
+11136,tmin,199.53,9.0,True,1993-03,-2.15,°C,485

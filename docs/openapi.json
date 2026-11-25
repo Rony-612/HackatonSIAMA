@@ -1,0 +1,1674 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GeoTrust SIAMA · Datos climatológicos sin huecos",
+    "description": "Series diarias completadas con ML. Cada dato trae su origen (observado/estimado/no_estimable), su bandera de calidad y, si es estimado, su intervalo de incertidumbre (nominal 90 %) y su trazabilidad.",
+    "version": "2.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/proyecto": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Identidad y método del proyecto",
+        "operationId": "proyecto_api_v1_proyecto_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/banderas": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Significado de cada bandera de calidad",
+        "operationId": "banderas_api_v1_banderas_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Banderas Api V1 Banderas Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/estaciones": {
+      "get": {
+        "tags": [
+          "diagnóstico"
+        ],
+        "summary": "Estaciones con su % de vacíos (para el mapa)",
+        "operationId": "estaciones_api_v1_estaciones_get",
+        "parameters": [
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "default": "precipitacion",
+              "title": "Variable"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EstacionesOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/estaciones/{estacion}/diagnostico": {
+      "get": {
+        "tags": [
+          "diagnóstico"
+        ],
+        "summary": "Diagnóstico de vacíos de una estación (endpoint 1)",
+        "operationId": "diagnostico_api_v1_estaciones__estacion__diagnostico_get",
+        "parameters": [
+          {
+            "name": "estacion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Estacion"
+            }
+          },
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "default": "precipitacion",
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "incluir_huecos",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false,
+              "title": "Incluir Huecos"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DiagnosticoOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/mapa": {
+      "get": {
+        "tags": [
+          "series"
+        ],
+        "summary": "Un día para todas las estaciones: valor, intervalo y bandera (lo que pinta el Monitor de Clima)",
+        "operationId": "mapa_api_v1_mapa_get",
+        "parameters": [
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "default": "precipitacion",
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "fecha",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "AAAA-MM-DD; por defecto el último día con datos",
+              "title": "Fecha"
+            },
+            "description": "AAAA-MM-DD; por defecto el último día con datos"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MapaOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/estaciones/{estacion}/series": {
+      "get": {
+        "tags": [
+          "series"
+        ],
+        "summary": "Serie completada por estación y periodo (endpoint 2)",
+        "operationId": "series_api_v1_estaciones__estacion__series_get",
+        "parameters": [
+          {
+            "name": "estacion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Estacion"
+            }
+          },
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "default": "precipitacion",
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "inicio",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "AAAA-MM-DD",
+              "title": "Inicio"
+            },
+            "description": "AAAA-MM-DD"
+          },
+          {
+            "name": "fin",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "AAAA-MM-DD",
+              "title": "Fin"
+            },
+            "description": "AAAA-MM-DD"
+          },
+          {
+            "name": "limite",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 20000,
+              "minimum": 1,
+              "default": 2000,
+              "title": "Limite"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0,
+              "title": "Offset"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SerieOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/estaciones/{estacion}/series/{fecha}/trazabilidad": {
+      "get": {
+        "tags": [
+          "series"
+        ],
+        "summary": "Pasaporte del dato: vecinas observadas ese día",
+        "operationId": "trazabilidad_api_v1_estaciones__estacion__series__fecha__trazabilidad_get",
+        "parameters": [
+          {
+            "name": "estacion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Estacion"
+            }
+          },
+          {
+            "name": "fecha",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Fecha"
+            }
+          },
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "default": "precipitacion",
+              "title": "Variable"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TrazabilidadOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/metricas": {
+      "get": {
+        "tags": [
+          "modelo"
+        ],
+        "summary": "Métricas de validación (endpoint 3)",
+        "operationId": "metricas_api_v1_metricas_get",
+        "parameters": [
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "precipitacion",
+                    "tmax",
+                    "tmin"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "estacion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Estacion"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/recomendacion": {
+      "get": {
+        "tags": [
+          "modelo"
+        ],
+        "summary": "Método recomendado según la longitud del hueco",
+        "operationId": "recomendacion_api_v1_recomendacion_get",
+        "parameters": [
+          {
+            "name": "variable",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "enum": [
+                "precipitacion",
+                "tmax",
+                "tmin"
+              ],
+              "type": "string",
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "longitud_hueco",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "title": "Longitud Hueco"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecomendacionOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/homogeneidad": {
+      "get": {
+        "tags": [
+          "modelo"
+        ],
+        "summary": "Posibles cambios abruptos en las series (SNHT) — temperatura y precipitación",
+        "operationId": "homogeneidad_api_v1_homogeneidad_get",
+        "parameters": [
+          {
+            "name": "estacion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Estacion"
+            }
+          },
+          {
+            "name": "variable",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "precipitacion",
+                    "tmax",
+                    "tmin"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Variable"
+            }
+          },
+          {
+            "name": "solo_cambios",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false,
+              "title": "Solo Cambios"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Homogeneidad"
+                  },
+                  "title": "Response Homogeneidad Api V1 Homogeneidad Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/descargas/{archivo}": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Descargar archivos de resultados",
+        "operationId": "descargar_api_v1_descargas__archivo__get",
+        "parameters": [
+          {
+            "name": "archivo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "enum": [
+                "predicciones.csv",
+                "diagnostico.csv",
+                "series_completadas.csv",
+                "metricas.json",
+                "homogeneidad.csv",
+                "huecos.csv"
+              ],
+              "type": "string",
+              "title": "Archivo"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/asistente": {
+      "post": {
+        "tags": [
+          "asistente"
+        ],
+        "summary": "Asistente: responde preguntas sobre una estación usando solo los resultados del pipeline",
+        "operationId": "asistente_api_v1_asistente_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreguntaIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaAsistente"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DiagnosticoOut": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "variable": {
+            "type": "string",
+            "title": "Variable"
+          },
+          "esperados": {
+            "type": "integer",
+            "title": "Esperados"
+          },
+          "faltantes": {
+            "type": "integer",
+            "title": "Faltantes"
+          },
+          "porcentaje_vacios": {
+            "type": "number",
+            "title": "Porcentaje Vacios"
+          },
+          "porcentaje_vacios_crudo": {
+            "type": "number",
+            "title": "Porcentaje Vacios Crudo"
+          },
+          "cortos": {
+            "type": "integer",
+            "title": "Cortos"
+          },
+          "medios": {
+            "type": "integer",
+            "title": "Medios"
+          },
+          "largos": {
+            "type": "integer",
+            "title": "Largos"
+          },
+          "hueco_mas_largo": {
+            "type": "integer",
+            "title": "Hueco Mas Largo"
+          },
+          "invalidos_o_descartados_qc": {
+            "type": "integer",
+            "title": "Invalidos O Descartados Qc"
+          },
+          "sospechosos": {
+            "type": "integer",
+            "title": "Sospechosos"
+          },
+          "faltantes_por_anio": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Faltantes Por Anio"
+          },
+          "faltantes_por_mes": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Faltantes Por Mes"
+          },
+          "huecos": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/Hueco"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Huecos"
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "variable",
+          "esperados",
+          "faltantes",
+          "porcentaje_vacios",
+          "porcentaje_vacios_crudo",
+          "cortos",
+          "medios",
+          "largos",
+          "hueco_mas_largo",
+          "invalidos_o_descartados_qc",
+          "sospechosos",
+          "faltantes_por_anio",
+          "faltantes_por_mes"
+        ],
+        "title": "DiagnosticoOut"
+      },
+      "EstacionMapa": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "nombre": {
+            "type": "string",
+            "title": "Nombre"
+          },
+          "municipio": {
+            "type": "string",
+            "title": "Municipio"
+          },
+          "latitud": {
+            "type": "number",
+            "title": "Latitud"
+          },
+          "longitud": {
+            "type": "number",
+            "title": "Longitud"
+          },
+          "altitud": {
+            "type": "number",
+            "title": "Altitud"
+          },
+          "porcentaje_vacios": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Porcentaje Vacios"
+          },
+          "hueco_mas_largo": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Hueco Mas Largo"
+          },
+          "cambio_abrupto": {
+            "type": "boolean",
+            "title": "Cambio Abrupto"
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "nombre",
+          "municipio",
+          "latitud",
+          "longitud",
+          "altitud",
+          "porcentaje_vacios",
+          "hueco_mas_largo",
+          "cambio_abrupto"
+        ],
+        "title": "EstacionMapa"
+      },
+      "EstacionesOut": {
+        "properties": {
+          "variable": {
+            "type": "string",
+            "title": "Variable"
+          },
+          "etiqueta": {
+            "type": "string",
+            "title": "Etiqueta"
+          },
+          "unidad": {
+            "type": "string",
+            "title": "Unidad"
+          },
+          "estaciones": {
+            "items": {
+              "$ref": "#/components/schemas/EstacionMapa"
+            },
+            "type": "array",
+            "title": "Estaciones"
+          }
+        },
+        "type": "object",
+        "required": [
+          "variable",
+          "etiqueta",
+          "unidad",
+          "estaciones"
+        ],
+        "title": "EstacionesOut"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Homogeneidad": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "variable": {
+            "type": "string",
+            "title": "Variable"
+          },
+          "estadistico_T": {
+            "type": "number",
+            "title": "Estadistico T"
+          },
+          "critico_aprox": {
+            "type": "number",
+            "title": "Critico Aprox"
+          },
+          "posible_cambio": {
+            "type": "boolean",
+            "title": "Posible Cambio"
+          },
+          "fecha_probable": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fecha Probable"
+          },
+          "salto_medio": {
+            "type": "number",
+            "title": "Salto Medio"
+          },
+          "unidad_salto": {
+            "type": "string",
+            "title": "Unidad Salto"
+          },
+          "meses_usados": {
+            "type": "integer",
+            "title": "Meses Usados"
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "variable",
+          "estadistico_T",
+          "critico_aprox",
+          "posible_cambio",
+          "salto_medio",
+          "unidad_salto",
+          "meses_usados"
+        ],
+        "title": "Homogeneidad"
+      },
+      "Hueco": {
+        "properties": {
+          "inicio": {
+            "type": "string",
+            "title": "Inicio"
+          },
+          "fin": {
+            "type": "string",
+            "title": "Fin"
+          },
+          "longitud": {
+            "type": "integer",
+            "title": "Longitud"
+          },
+          "tipo": {
+            "type": "string",
+            "title": "Tipo"
+          }
+        },
+        "type": "object",
+        "required": [
+          "inicio",
+          "fin",
+          "longitud",
+          "tipo"
+        ],
+        "title": "Hueco"
+      },
+      "MapaOut": {
+        "properties": {
+          "variable": {
+            "type": "string",
+            "enum": [
+              "precipitacion",
+              "tmax",
+              "tmin"
+            ],
+            "title": "Variable"
+          },
+          "etiqueta": {
+            "type": "string",
+            "title": "Etiqueta"
+          },
+          "unidad": {
+            "type": "string",
+            "title": "Unidad"
+          },
+          "fecha": {
+            "type": "string",
+            "title": "Fecha"
+          },
+          "fecha_min": {
+            "type": "string",
+            "title": "Fecha Min"
+          },
+          "fecha_max": {
+            "type": "string",
+            "title": "Fecha Max"
+          },
+          "nivel_intervalo": {
+            "type": "number",
+            "title": "Nivel Intervalo"
+          },
+          "estaciones": {
+            "items": {
+              "$ref": "#/components/schemas/PuntoMapa"
+            },
+            "type": "array",
+            "title": "Estaciones"
+          }
+        },
+        "type": "object",
+        "required": [
+          "variable",
+          "etiqueta",
+          "unidad",
+          "fecha",
+          "fecha_min",
+          "fecha_max",
+          "nivel_intervalo",
+          "estaciones"
+        ],
+        "title": "MapaOut"
+      },
+      "PreguntaIn": {
+        "properties": {
+          "pregunta": {
+            "type": "string",
+            "maxLength": 400,
+            "minLength": 3,
+            "title": "Pregunta",
+            "examples": [
+              "¿Qué tan completa está la estación SIM001?"
+            ]
+          },
+          "clave_estacion": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Clave Estacion"
+          },
+          "variable": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "precipitacion",
+                  "tmax",
+                  "tmin"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Variable"
+          },
+          "fecha": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fecha",
+            "description": "AAAA-MM-DD"
+          }
+        },
+        "type": "object",
+        "required": [
+          "pregunta"
+        ],
+        "title": "PreguntaIn"
+      },
+      "Punto": {
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "title": "Fecha"
+          },
+          "valor": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valor"
+          },
+          "limite_inferior": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Limite Inferior"
+          },
+          "limite_superior": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Limite Superior"
+          },
+          "origen": {
+            "type": "string",
+            "enum": [
+              "observado",
+              "estimado",
+              "no_estimable"
+            ],
+            "title": "Origen"
+          },
+          "calidad": {
+            "type": "string",
+            "title": "Calidad"
+          },
+          "metodo": {
+            "type": "string",
+            "title": "Metodo"
+          },
+          "motivo_no_estimable": {
+            "type": "string",
+            "title": "Motivo No Estimable"
+          },
+          "longitud_hueco": {
+            "type": "integer",
+            "title": "Longitud Hueco"
+          },
+          "vecinos_disponibles": {
+            "type": "integer",
+            "title": "Vecinos Disponibles"
+          },
+          "sospechoso": {
+            "type": "boolean",
+            "title": "Sospechoso"
+          }
+        },
+        "type": "object",
+        "required": [
+          "fecha",
+          "origen",
+          "calidad",
+          "metodo",
+          "motivo_no_estimable",
+          "longitud_hueco",
+          "vecinos_disponibles",
+          "sospechoso"
+        ],
+        "title": "Punto"
+      },
+      "PuntoMapa": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "nombre": {
+            "type": "string",
+            "title": "Nombre"
+          },
+          "municipio": {
+            "type": "string",
+            "title": "Municipio"
+          },
+          "dependencia": {
+            "type": "string",
+            "title": "Dependencia"
+          },
+          "latitud": {
+            "type": "number",
+            "title": "Latitud"
+          },
+          "longitud": {
+            "type": "number",
+            "title": "Longitud"
+          },
+          "altitud": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Altitud"
+          },
+          "valor": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valor"
+          },
+          "limite_inferior": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Limite Inferior"
+          },
+          "limite_superior": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Limite Superior"
+          },
+          "origen": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origen",
+            "description": "observado | estimado | no_estimable | fuera_de_operacion"
+          },
+          "calidad": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Calidad"
+          },
+          "metodo": {
+            "type": "string",
+            "title": "Metodo",
+            "default": ""
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "nombre",
+          "municipio",
+          "dependencia",
+          "latitud",
+          "longitud"
+        ],
+        "title": "PuntoMapa"
+      },
+      "RecomendacionOut": {
+        "properties": {
+          "variable": {
+            "type": "string",
+            "title": "Variable"
+          },
+          "longitud_hueco": {
+            "type": "integer",
+            "title": "Longitud Hueco"
+          },
+          "rango": {
+            "type": "string",
+            "title": "Rango"
+          },
+          "mejor": {
+            "type": "string",
+            "title": "Mejor"
+          },
+          "mae": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Mae"
+          },
+          "n": {
+            "type": "integer",
+            "title": "N"
+          },
+          "metodo_activo_en_produccion": {
+            "type": "string",
+            "title": "Metodo Activo En Produccion"
+          },
+          "nota": {
+            "type": "string",
+            "title": "Nota"
+          }
+        },
+        "type": "object",
+        "required": [
+          "variable",
+          "longitud_hueco",
+          "rango",
+          "mejor",
+          "mae",
+          "n",
+          "metodo_activo_en_produccion",
+          "nota"
+        ],
+        "title": "RecomendacionOut"
+      },
+      "RespuestaAsistente": {
+        "properties": {
+          "intencion": {
+            "type": "string",
+            "title": "Intencion"
+          },
+          "respuesta": {
+            "type": "string",
+            "title": "Respuesta"
+          },
+          "fuentes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Fuentes"
+          },
+          "datos": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Datos"
+          },
+          "aviso": {
+            "type": "string",
+            "title": "Aviso",
+            "default": "Respuesta construida solo con los archivos de resultados del pipeline; no se inventa ningún dato."
+          },
+          "generado_por": {
+            "type": "string",
+            "title": "Generado Por",
+            "default": "reglas deterministas"
+          },
+          "verificacion": {
+            "type": "string",
+            "title": "Verificacion",
+            "default": "no aplica"
+          },
+          "respuesta_base": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Respuesta Base",
+            "description": "Texto determinista por reglas (referencia cuando redacta Granite)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "intencion",
+          "respuesta",
+          "fuentes",
+          "datos"
+        ],
+        "title": "RespuestaAsistente"
+      },
+      "SerieOut": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "municipio": {
+            "type": "string",
+            "title": "Municipio"
+          },
+          "variable": {
+            "type": "string",
+            "title": "Variable"
+          },
+          "etiqueta": {
+            "type": "string",
+            "title": "Etiqueta"
+          },
+          "unidad": {
+            "type": "string",
+            "title": "Unidad"
+          },
+          "nivel_intervalo": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Nivel Intervalo"
+          },
+          "conteos": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Conteos"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "offset": {
+            "type": "integer",
+            "title": "Offset"
+          },
+          "devueltos": {
+            "type": "integer",
+            "title": "Devueltos"
+          },
+          "siguiente_offset": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Siguiente Offset"
+          },
+          "puntos": {
+            "items": {
+              "$ref": "#/components/schemas/Punto"
+            },
+            "type": "array",
+            "title": "Puntos"
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "municipio",
+          "variable",
+          "etiqueta",
+          "unidad",
+          "nivel_intervalo",
+          "conteos",
+          "total",
+          "offset",
+          "devueltos",
+          "siguiente_offset",
+          "puntos"
+        ],
+        "title": "SerieOut"
+      },
+      "TrazabilidadOut": {
+        "properties": {
+          "fecha": {
+            "type": "string",
+            "title": "Fecha"
+          },
+          "origen": {
+            "type": "string",
+            "title": "Origen"
+          },
+          "calidad": {
+            "type": "string",
+            "title": "Calidad"
+          },
+          "metodo": {
+            "type": "string",
+            "title": "Metodo"
+          },
+          "motivo_no_estimable": {
+            "type": "string",
+            "title": "Motivo No Estimable"
+          },
+          "longitud_hueco": {
+            "type": "integer",
+            "title": "Longitud Hueco"
+          },
+          "vecinas_con_dato_ese_dia": {
+            "items": {
+              "$ref": "#/components/schemas/VecinaDia"
+            },
+            "type": "array",
+            "title": "Vecinas Con Dato Ese Dia"
+          },
+          "nota": {
+            "type": "string",
+            "title": "Nota"
+          }
+        },
+        "type": "object",
+        "required": [
+          "fecha",
+          "origen",
+          "calidad",
+          "metodo",
+          "motivo_no_estimable",
+          "longitud_hueco",
+          "vecinas_con_dato_ese_dia",
+          "nota"
+        ],
+        "title": "TrazabilidadOut"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "VecinaDia": {
+        "properties": {
+          "clave_estacion": {
+            "type": "string",
+            "title": "Clave Estacion"
+          },
+          "distancia_km": {
+            "type": "number",
+            "title": "Distancia Km"
+          },
+          "correlacion": {
+            "type": "number",
+            "title": "Correlacion"
+          },
+          "diferencia_altitud_m": {
+            "type": "number",
+            "title": "Diferencia Altitud M"
+          },
+          "misma_cuenca": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Misma Cuenca"
+          },
+          "valor_observado": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valor Observado"
+          }
+        },
+        "type": "object",
+        "required": [
+          "clave_estacion",
+          "distancia_km",
+          "correlacion",
+          "diferencia_altitud_m"
+        ],
+        "title": "VecinaDia"
+      }
+    }
+  }
+}

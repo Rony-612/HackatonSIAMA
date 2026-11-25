@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      SIAMA_OUTPUT_DIR: /srv/outputs
+    volumes:
+      - ./outputs:/srv/outputs:ro
+    restart: unless-stopped
+  # Recalcular resultados:  docker compose run --rm recalcular
+  recalcular:
+    build: .
+    profiles: ["tools"]
+    command: python -m gapfill.cli --data-dir data_oficial --output-dir outputs
+    volumes:
+      - ./data_oficial:/srv/data_oficial:ro
+      - ./outputs:/srv/outputs

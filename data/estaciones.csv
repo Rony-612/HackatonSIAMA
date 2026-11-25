@@ -1,0 +1,17 @@
+clave_estacion,nombre,municipio,latitud,longitud,altitud,estado_operativo,inicio_operacion,fin_operacion
+SIM001,Estación sintética Guanajuato,Guanajuato,21.02,-101.25,2050,simulada,2020-01-01,2024-12-31
+SIM002,Estación sintética León,León,21.12,-101.68,1810,simulada,2020-01-01,2024-12-31
+SIM003,Estación sintética Silao,Silao,20.94,-101.43,1780,simulada,2020-01-01,2024-12-31
+SIM004,Estación sintética Irapuato,Irapuato,20.67,-101.35,1740,simulada,2020-01-01,2024-12-31
+SIM005,Estación sintética Celaya,Celaya,20.52,-100.82,1760,simulada,2020-01-01,2024-12-31
+SIM006,Estación sintética Salamanca,Salamanca,20.57,-101.2,1730,simulada,2020-01-01,2024-12-31
+SIM007,Estación sintética Dolores Hidalgo,Dolores Hidalgo,21.16,-100.93,1920,simulada,2020-01-01,2024-12-31
+SIM008,Estación sintética San Miguel de Allende,San Miguel de Allende,20.91,-100.74,1920,simulada,2020-01-01,2024-12-31
+SIM009,Estación sintética San Felipe,San Felipe,21.48,-101.21,2100,simulada,2020-01-01,2024-12-31
+SIM010,Estación sintética Pénjamo,Pénjamo,20.43,-101.72,1850,simulada,2020-01-01,2024-12-31
+SIM011,Estación sintética Valle de Santiago,Valle de Santiago,20.39,-101.19,1740,simulada,2020-01-01,2024-12-31
+SIM012,Estación sintética Acámbaro,Acámbaro,20.03,-100.72,1850,simulada,2020-01-01,2024-12-31
+SIM013,Estación sintética San Luis de la Paz,San Luis de la Paz,21.3,-100.52,2070,simulada,2020-01-01,2024-12-31
+SIM014,Estación sintética Romita,Romita,20.87,-101.51,1800,simulada,2020-01-01,2024-12-31
+SIM015,Estación sintética Apaseo el Grande,Apaseo el Grande,20.55,-100.68,1780,simulada,2020-01-01,2024-12-31
+SIM016,Estación sintética Cuerámaro,Cuerámaro,20.63,-101.67,1760,simulada,2020-01-01,2024-12-31
